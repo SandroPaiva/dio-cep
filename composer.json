@@ -1,0 +1,24 @@
+{
+    "name": "sandr/dio-cep",
+    "description": "Busca de CEP Online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sandro Neri de Paiva",
+            "email": "sandroneripaiva@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+
+        "psr-4": {
+            "Sandr\\DioCep\\": "src/"
+        }
+    }
+}
